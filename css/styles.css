@@ -57,3 +57,12 @@ nav {
     height: 2.1875em;
     max-width: 0 4vw;
 }
+
+.top-menu > li > a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 240, 238);
+    text-shadow: 0.0625em -0.0625em 0.625em rgb(52, 48, 48);
+    font-size: 0.8125em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
