@@ -129,3 +129,10 @@ nav {
     width: 100%;
 }
 
+.titleLink {
+    background: url("../images/explore.png") no-repeat center 0;
+    width: 50%;
+    height: 1.875em;
+    margin: 9px;
+    padding: 4px;
+}
