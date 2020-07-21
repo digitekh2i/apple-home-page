@@ -15,7 +15,7 @@ margin-top: 0;
     margin: 0 2.5em;
 }
 
-.upper-part {
+.upper-section {
     max-width: 100%;
     height: 32.5em;
     background: url("../images/mount.jpg") 50% 100% no-repeat;
@@ -133,6 +133,36 @@ nav {
     background: url("../images/explore.png") no-repeat center 0;
     width: 50%;
     height: 1.875em;
-    margin: 9px;
-    padding: 4px;
+    margin: 0.5625em;
+    padding: 0.25em;
+}
+
+.middle-section {
+    height: 12.5em;
+    max-width: 100%;
+}
+
+.middle-section-image {
+    height: 100%;
+    width: 25%;
+    background-size: 100% 100%;
+    flex-shrink: 3;
+    background-repeat: no-repeat;
+    border: 2px solid #fff;
+}
+
+.first-middle-img {
+background-image: url("../images/iphone5c.jpg");
+}
+
+.second-middle-img {
+background-image: url("../images/iphone5s.jpg");    
+}
+
+.third-middle-img {
+background-image: url("../images/30_years.jpg");
+}
+
+.fourth-middle-img {
+background-image: url("../images/promo.jpg");
 }
