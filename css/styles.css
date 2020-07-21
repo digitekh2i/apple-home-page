@@ -1,0 +1,16 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+margin-top: 0;
+}
+
+.flex-fix {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-box {
+    margin: 0 2.5em;
+}
