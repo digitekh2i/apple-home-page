@@ -29,8 +29,27 @@ margin-top: 0;
     margin: 0 auto;
 }
 
+.logo {
+    height: 1.8125em;
+}
+
 .top-menu {
-    
+  list-style: none;
+  width: 94%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.top-menu li {
+    height: 100%;
+    width: 20%;
+    border-right: 0.0625em solid #262626;
+    box-shadow: 0 0 0.625em #a6a6a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 nav {
