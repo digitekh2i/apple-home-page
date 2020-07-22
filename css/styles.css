@@ -94,13 +94,13 @@ nav {
   background: linear-gradient(to bottom, rgb(114, 100, 100), #333 50%, #8c8c8c 50%, #b3b3b3);
   transition: all 0.5s linear;
   border-radius: 1.375em;
-  border-top: rgb(114, 100, 100), inset 0, 125em;
+  border-top:rgb(114, 100, 100), inset 0, 125em;
   border-bottom: 2px inset #666;
   border-left: none;
 }
 
-input:invalid {
-  border-top: rgb(114, 100, 100), inset 0, 125em;   
+.search:invalid {
+  border-top:rgb(114, 100, 100), inset 0, 125em;   
 }
 
 .search:focus {
@@ -238,41 +238,41 @@ input:invalid {
 
 /* responsive width-1000 */
 @media screen and (max-width: 1000px) {
-  * {
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
     }
 
-  body {
-    margin: auto;
-    max-width: 100%;
+body {
+  margin: auto;
+  max-width: 100%;
     }
 
-  .search {
-    width: 65%;
+.search {
+  width: 65%;
     }
 
 
-  .titleMain {
-    width: 100%;
-    display: flex;
+.titleMain {
+  width: 100%;
+  display: flex;
     }
 
-  .footer-content-1 {
-    font-size: 7px;
-    margin: auto;
-    float: left;
+.footer-content-1 {
+  font-size: 7px;
+  margin: auto;
+  float: left;
     }
 
-  .footer-content-2 {
-    font-size: 7px;
-    margin: auto;
-    float: right;
+.footer-content-2 {
+  font-size: 7px;
+  margin: auto;
+  float: right;
     }
 
-  .footer-content-3 {
-    font-size: 7px;
-    margin: auto;
-    clear: both;
+.footer-content-3 {
+  font-size: 7px;
+  margin: auto;
+  clear: both;
     }
 
 }
