@@ -244,10 +244,10 @@ nav {
     box-sizing: border-box;
   }
   
-    body {
-      margin: auto;
-      max-width: 100%;
-    }
+  body {
+    margin: auto;
+    max-width: 100%;
+  }
     
     .search {
       width: 65%;
