@@ -239,8 +239,8 @@ nav {
 /* MEDDIA QUERRIES */
 
 /* responsive width-1000 */
-  @media screen and (max-width: 1000px) {
-    * {
+@media screen and (max-width: 1000px) {
+  * {
       box-sizing: border-box;
     }
   
