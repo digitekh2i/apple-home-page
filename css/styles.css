@@ -50,7 +50,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 nav {
@@ -61,7 +60,7 @@ nav {
   left: 27px;
 }
 
-.top-menu>li>a {
+.top-menu > li > a {
   text-decoration: none;
   text-align: center;
   color: rgb(255, 240, 238);
@@ -76,12 +75,12 @@ nav {
   justify-content: flex-end;
   align-items: center;
   margin-right: -3.70em;
-  padding: 0.125em 2% 0 0;
+  padding: 0.125em 2% 0px 0px;
   left: 0.25em;
   top: 0.375em;
 }
 
-.nav-form>img {
+.nav-form > img {
   z-index: 100;
   max-width: 0.8125em;
   position: absolute;
@@ -98,6 +97,10 @@ nav {
   border-top: rgb(114, 100, 100), inset 0, 125em;
   border-bottom: 2px inset #666;
   border-left: none;
+}
+
+:invalid {
+    border-top: rgb(114, 100, 100), inset 0, 125em;   
 }
 
 .search:focus {
@@ -121,8 +124,12 @@ nav {
 .titleHeader {
   background: url("../images/h.png") no-repeat center 0.25em;
   min-height: 6.25em;
-  background: contain;
+  background-size: contain;
   width: 100%;
+}
+
+:invalid {
+    background: url("../images/h.png") no-repeat center 0.25em;   
 }
 
 .titleSubHeader {
@@ -196,7 +203,7 @@ nav {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.footer-menu>li {
+.footer-menu > li {
   list-style: none;
   padding: 0.03em;
   margin: 0.25em;
@@ -218,13 +225,13 @@ nav {
 }
 
 .footer-content-3 {
-    clear: both;
-    margin: 0.25em;
+  clear: both;
+  margin: 0.25em;
 }
 
 .footer-link {
-    text-decoration: none;
-    color: rgb(0, 125, 255);
+  text-decoration: none;
+  color: rgb(0, 125, 255);
 }
 
 /* MEDDIA QUERRIES */
