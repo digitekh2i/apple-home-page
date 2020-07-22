@@ -75,7 +75,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   margin-right: -3.7em;
-  padding: 0.125em 2% 0.02px 0.02px;
+  padding: 0.125em 2% 0.02em 0.02em;
   left: 0.25em;
   top: 0.375em;
 }
@@ -208,9 +208,8 @@ nav {
 }
 
 .footer-lists {
-  border-left: 0.0625em;
-  margin-left: 0.08em;
-  padding-left: 0.08em;
+  border-left: 0.125em solid #666;
+  padding-left: 0.5em;
 }
 
 .footer-content-1 {
@@ -230,6 +229,10 @@ nav {
 .footer-link {
   text-decoration: none;
   color: rgb(0, 125, 255);
+}
+
+span {
+    margin: 4px;
 }
 
 /* MEDDIA QUERRIES */
