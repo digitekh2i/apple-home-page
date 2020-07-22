@@ -12,7 +12,7 @@ body {
 }
 
 .main-box {
-  margin: 0 2.5em;
+  margin: auto
 }
 
 .upper-section {
@@ -275,5 +275,5 @@ nav {
     font-size: 7px;
     margin: auto;
     clear: both;
-  }
+  } 
 }
