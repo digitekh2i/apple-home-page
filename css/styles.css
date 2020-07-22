@@ -56,7 +56,9 @@ margin-top: 0;
 nav {
     background: linear-gradient(to bottom, #f2f2f2, #b3b3b3 50%, #999 50%, #666);
     height: 2.1875em;
-    max-width: 95%;
+    max-width: 93%;
+    position: relative;
+    left: 27px;
 }
 
 .top-menu > li > a {
@@ -189,7 +191,7 @@ background-image: url("../images/promo.jpg");
 }
 
 .footer-txt {
-    font-size: x-small;
+    font-size: small;
     color: rgb(114, 100, 100);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
 }
