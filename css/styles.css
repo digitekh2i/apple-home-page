@@ -228,7 +228,7 @@ nav {
 
 .footer-content-3 {
   clear: both;
-  margin: 0.25em;
+  margin: 0.25em; 
 }
 
 .footer-link {
@@ -239,6 +239,7 @@ nav {
 /* MEDDIA QUERRIES */
 
 /* responsive width-1000 */
+
 @media screen and (max-width: 1000px) {
   * {
     box-sizing: border-box;
@@ -249,8 +250,8 @@ nav {
     max-width: 100%;
   }
     
-    .search {
-      width: 65%;
+  .search {
+    width: 65%;
     }
   
   .titleMain {
@@ -259,20 +260,20 @@ nav {
   }
   
   .footer-content-1 {
-     font-size: 7px;
-     margin: auto;
-     float: left;
+    font-size: 7px;
+    margin: auto;
+    float: left;
   }
   
   .footer-content-2 {
-     font-size: 7px;
-     margin: auto;
-     float: right;
+    font-size: 7px;
+    margin: auto;
+    float: right;
   }
   
   .footer-content-3 {
-     font-size: 7px;
-     margin: auto;
-     clear: both;
+    font-size: 7px;
+    margin: auto;
+    clear: both;
   }
 }
