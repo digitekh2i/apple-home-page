@@ -78,6 +78,7 @@ nav {
   padding: 0.125em 2% 0.02em 0.02em;
   left: 0.25em;
   top: 0.375em;
+  overflow: hidden;
 }
 
 .nav-form > img {
@@ -97,6 +98,7 @@ nav {
   border-top: 0.04em solid rgb(114, 100, 100);
   border-bottom: 0.125em inset #666;
   border-left: none;
+  overflow: hidden;
 }
 
 .search:focus {
@@ -251,11 +253,13 @@ span {
 
   .search {
     width: 65%;
+    overflow: hidden;
   }
 
   .titleMain {
     width: 100%;
     display: flex;
+    align-items: center;
   }
 
   .footer-content-1 {
