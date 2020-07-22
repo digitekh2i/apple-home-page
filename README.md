@@ -1,4 +1,4 @@
-# Apple Homepage
+# Apple Home Page
 
 > For the purpose of educational practical exhibition, i replicated old apple's homepage as part the Microverse Technical Curriculum Assignment.  
 
