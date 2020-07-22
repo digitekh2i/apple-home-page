@@ -2,7 +2,7 @@
 
 > For the purpose of educational practical exhibition, i replicated old apple's homepage as part the Microverse Technical Curriculum Assignment.  
 
-![screenshot](../images/screen.png)
+![screenshot](images/screen.png)
 
 
 ## Built With
