@@ -227,8 +227,8 @@ nav {
 }
 
 .footer-content-3 {
-  clear: both;
-  margin: 0.25em; 
+  clear: both ;
+  margin: 0.25em ;
 }
 
 .footer-link {
@@ -252,7 +252,7 @@ nav {
     
   .search {
     width: 65%;
-    }
+  }
   
   .titleMain {
     width: 100%;
@@ -276,4 +276,5 @@ nav {
     margin: auto;
     clear: both;
   }
+  
 }
