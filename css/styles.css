@@ -245,7 +245,7 @@ nav {
     box-sizing: border-box;
   }
   
-  body {
+  body{
     margin: auto;
     max-width: 100%;
   }
@@ -254,24 +254,24 @@ nav {
     width: 65%;
   }
   
- .titleMain {
+  .titleMain {
     width: 100%;
     display: flex;
   }
   
- .footer-content-1 {
+  .footer-content-1 {
     font-size: 7px;
     margin: auto;
     float: left;
   }
   
- .footer-content-2 {
+  .footer-content-2 {
     font-size: 7px;
     margin: auto;
     float: right;
   }
   
- .footer-content-3 {
+  .footer-content-3 {
     font-size: 7px;
     margin: auto;
     clear: both;
